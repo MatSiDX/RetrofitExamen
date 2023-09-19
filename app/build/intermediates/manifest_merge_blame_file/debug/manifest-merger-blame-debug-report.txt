@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.genuinecoder.springclient"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->D:\PROGRA\PRACTICANDO\practicando oracle\Spring-boot-tutorial-master\SpringClient\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\PROGRA\PRACTICANDO\practicando oracle\Spring-boot-tutorial-master\SpringClient\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->D:\PROGRA\PRACTICANDO\practicando oracle\Spring-boot-tutorial-master\SpringClient\app\src\main\AndroidManifest.xml:29:3-77
+11-->D:\PROGRA\PRACTICANDO\practicando oracle\Spring-boot-tutorial-master\SpringClient\app\src\main\AndroidManifest.xml:29:20-74
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\PROGRA\PRACTICANDO\practicando oracle\Spring-boot-tutorial-master\SpringClient\app\src\main\AndroidManifest.xml:31:3-65
+12-->D:\PROGRA\PRACTICANDO\practicando oracle\Spring-boot-tutorial-master\SpringClient\app\src\main\AndroidManifest.xml:31:20-62
+13
+14    <application
+14-->D:\PROGRA\PRACTICANDO\practicando oracle\Spring-boot-tutorial-master\SpringClient\app\src\main\AndroidManifest.xml:5:3-28:17
+15        android:allowBackup="true"
+15-->D:\PROGRA\PRACTICANDO\practicando oracle\Spring-boot-tutorial-master\SpringClient\app\src\main\AndroidManifest.xml:6:5-31
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.7.0] C:\Users\Brayan\.gradle\caches\transforms-3\02483169c4c9e0ddffa88758188ac6f1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@mipmap/ic_launcher"
+19-->D:\PROGRA\PRACTICANDO\practicando oracle\Spring-boot-tutorial-master\SpringClient\app\src\main\AndroidManifest.xml:7:5-39
+20        android:label="@string/app_name"
+20-->D:\PROGRA\PRACTICANDO\practicando oracle\Spring-boot-tutorial-master\SpringClient\app\src\main\AndroidManifest.xml:8:5-37
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->D:\PROGRA\PRACTICANDO\practicando oracle\Spring-boot-tutorial-master\SpringClient\app\src\main\AndroidManifest.xml:9:5-50
+22        android:supportsRtl="true"
+22-->D:\PROGRA\PRACTICANDO\practicando oracle\Spring-boot-tutorial-master\SpringClient\app\src\main\AndroidManifest.xml:10:5-31
+23        android:testOnly="true"
+24        android:theme="@style/Theme.SpringClient"
+24-->D:\PROGRA\PRACTICANDO\practicando oracle\Spring-boot-tutorial-master\SpringClient\app\src\main\AndroidManifest.xml:11:5-46
+25        android:usesCleartextTraffic="true" >
+25-->D:\PROGRA\PRACTICANDO\practicando oracle\Spring-boot-tutorial-master\SpringClient\app\src\main\AndroidManifest.xml:12:5-40
+26        <activity
+26-->D:\PROGRA\PRACTICANDO\practicando oracle\Spring-boot-tutorial-master\SpringClient\app\src\main\AndroidManifest.xml:13:5-21:16
+27            android:name="com.genuinecoder.springclient.ClienteListActivity"
+27-->D:\PROGRA\PRACTICANDO\practicando oracle\Spring-boot-tutorial-master\SpringClient\app\src\main\AndroidManifest.xml:16:7-42
+28            android:exported="true"
+28-->D:\PROGRA\PRACTICANDO\practicando oracle\Spring-boot-tutorial-master\SpringClient\app\src\main\AndroidManifest.xml:14:7-30
+29            android:label="Lista de Clientes" >
+29-->D:\PROGRA\PRACTICANDO\practicando oracle\Spring-boot-tutorial-master\SpringClient\app\src\main\AndroidManifest.xml:15:7-40
+30            <intent-filter>
+30-->D:\PROGRA\PRACTICANDO\practicando oracle\Spring-boot-tutorial-master\SpringClient\app\src\main\AndroidManifest.xml:17:7-20:23
+31                <action android:name="android.intent.action.MAIN" />
+31-->D:\PROGRA\PRACTICANDO\practicando oracle\Spring-boot-tutorial-master\SpringClient\app\src\main\AndroidManifest.xml:18:9-61
+31-->D:\PROGRA\PRACTICANDO\practicando oracle\Spring-boot-tutorial-master\SpringClient\app\src\main\AndroidManifest.xml:18:17-58
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->D:\PROGRA\PRACTICANDO\practicando oracle\Spring-boot-tutorial-master\SpringClient\app\src\main\AndroidManifest.xml:19:9-69
+33-->D:\PROGRA\PRACTICANDO\practicando oracle\Spring-boot-tutorial-master\SpringClient\app\src\main\AndroidManifest.xml:19:19-66
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->D:\PROGRA\PRACTICANDO\practicando oracle\Spring-boot-tutorial-master\SpringClient\app\src\main\AndroidManifest.xml:22:5-27:16
+37            android:name="com.genuinecoder.springclient.ClienteForm"
+37-->D:\PROGRA\PRACTICANDO\practicando oracle\Spring-boot-tutorial-master\SpringClient\app\src\main\AndroidManifest.xml:24:7-34
+38            android:exported="true"
+38-->D:\PROGRA\PRACTICANDO\practicando oracle\Spring-boot-tutorial-master\SpringClient\app\src\main\AndroidManifest.xml:23:7-30
+39            android:label="Agregar Cliente"
+39-->D:\PROGRA\PRACTICANDO\practicando oracle\Spring-boot-tutorial-master\SpringClient\app\src\main\AndroidManifest.xml:25:7-38
+40            android:parentActivityName="com.genuinecoder.springclient.ClienteListActivity" >
+40-->D:\PROGRA\PRACTICANDO\practicando oracle\Spring-boot-tutorial-master\SpringClient\app\src\main\AndroidManifest.xml:26:7-56
+41        </activity>
+42
+43        <provider
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Brayan\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+44            android:name="androidx.startup.InitializationProvider"
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Brayan\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+45            android:authorities="com.genuinecoder.springclient.androidx-startup"
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Brayan\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+46            android:exported="false" >
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Brayan\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+47            <meta-data
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Brayan\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+48                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Brayan\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+49                android:value="androidx.startup" />
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Brayan\.gradle\caches\transforms-3\278083bef5dd79cb476949a0d92ce592\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+50            <meta-data
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Brayan\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+51                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Brayan\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+52                android:value="androidx.startup" />
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Brayan\.gradle\caches\transforms-3\4d932a67b7be3c4366d55752ebd69384\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+53        </provider>
+54    </application>
+55
+56</manifest>

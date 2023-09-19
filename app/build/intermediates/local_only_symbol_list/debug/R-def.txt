@@ -1,0 +1,35 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable baseline_delete_24
+drawable edit
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id ClienteList_fab
+id form_buttonSave
+id icon_editar
+id icon_eliminar
+id idapellido
+id idnombre
+id idtelefono
+id listaClientes
+id textApellido
+id textNombre
+id textTelefono
+layout activity_cliente_list
+layout activity_main
+layout list_cliente_item
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string button_save_employee
+string form_branch
+string form_location
+string form_name
+style Theme.SpringClient
